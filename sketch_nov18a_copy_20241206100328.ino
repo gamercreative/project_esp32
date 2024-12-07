@@ -360,7 +360,7 @@ const char htmlPage_main[] = R"rawliteral(
           distance = measure_distance() * 10.0;
         }
         else if (unit_choice == "inch") {
-          distance = measure_distance() / 2.54;
+          distance = measure_distance() * 0.393701;
         }
         digitalWrite(BUZZER,LOW);
         disp(distance,0,0);
