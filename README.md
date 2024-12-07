@@ -1,9 +1,9 @@
-# project_esp32
-for my collage project esp32 digital distance meter
-#tree
-- main ino file for esp32 logic
-- seperate html file for authentication webpage
-- seperate html file for esp32 interface
-#digaram for digital wires
-
-![WhatsApp Image 2024-12-05 at 16 25 07_a98d6f62](https://github.com/user-attachments/assets/0d7ea644-982f-4bea-949d-144ffd7c9d3f)
+project_esp32/
+├── src/
+│   ├── main.ino              # Main ESP32 logic code
+├── web/
+│   ├── authentication.html   # Webpage for user authentication
+│   ├── interface.html        # Webpage for ESP32 interface
+├── diagrams/
+│   └── ![WhatsApp Image 2024-12-05 at 16 25 07_91b72aa4](https://github.com/user-attachments/assets/42f75965-c217-4455-bbda-e5c89ede5b31)    # Diagram for digital wiring connections
+├── README.md                 # Project overview and instructions
